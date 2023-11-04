@@ -437,3 +437,14 @@ img {
   height: 100%;
   background-color:rgba(46, 47, 66, 0.40);
 }
+/*==========modal window*/
+.modal {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 408px;
+  min-height: 584px;
+  border-radius: 4px;
+background:#FCFCFC;
+}
