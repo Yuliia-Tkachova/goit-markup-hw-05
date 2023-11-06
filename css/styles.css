@@ -510,9 +510,27 @@ border: 1px solid rgba(46, 47, 66, 0.40);
 padding-left: 38px;
 
 }
+
+.modal-form-field:focus {
+border-color: #4d5ae5;
+outline-color: transparent;
+outline-offset: 2px;
+}
+.modal-form-field:focus + .modal-form-field-icon {
+fill: #4d5ae5;
+}
+
 .modal-form-review {
   margin-bottom: 8px;
 }
 .modal-form-field-icon {
-  fill:#2E2F42
+  color:#2E2F42;
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  transition: 250ms liner cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input {
+position: relative;
 }
